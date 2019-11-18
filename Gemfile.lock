@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    truedialog_api (2.0.0)
+      json-schema
+      rdoc
+      rest-client
+      yard
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.7)
+    coderay (1.1.0)
+    json (1.8.2)
+    json-schema (2.5.0)
+      addressable (~> 2.3)
+    method_source (0.8.2)
+    mime-types (2.4.3)
+    netrc (0.10.2)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rake (10.4.2)
+    rdoc (3.12.2)
+      json (~> 1.4)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    slop (3.6.0)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.7)
+  pry
+  rake (~> 10.0)
+  truedialog_api!
