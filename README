@@ -1,12 +1,12 @@
 TrueDialog Ruby SDK
 
-Edit ./examples/config.yml to add your TrueDialog credentials.
+Edit /examples/config.yml to add your TrueDialog credentials.
 
 If you would like to build the gem file, execute "rake build" 
 from the main directory.  To install globally, execute "rake install" 
 after the build.
 
-Otherwise, navigate to the ./examples/ directory to run individual 
+Otherwise, navigate to the /examples/ directory to run individual 
 *.rb files.
 
 API documentation: https://api.truedialog.com/docs/v2.1/
